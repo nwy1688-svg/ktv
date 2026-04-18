@@ -348,13 +348,13 @@ export default {
           "dlj.tf": "https://dlj.tf/short",
         },
         customBackend: {
-          "CM提供-负载均衡后端": "=https://vip.nwy1688.dpdns.org",
+          "CM提供-负载均衡后端": "https://vip.nwy1688.dpdns.org",
           "CM提供-应急备用后端": "https://subapi.fxxk.dedyn.io",
-          "肥羊提供-增强型后端": "=https://vip.nwy1688.dpdns.org",
+          "肥羊提供-增强型后端": "https://vip.nwy1688.dpdns.org",
           "肥羊提供-备用后端": "https://api.v1.mk",
         },
         backendOptions: [
-          { value: "=https://vip.nwy1688.dpdns.org" },
+          { value: "https://vip.nwy1688.dpdns.org" },
           { value: "https://subapi.fxxk.dedyn.io" },
           { value: "https://url.v1.mk" },
           { value: "https://api.v1.mk" },
