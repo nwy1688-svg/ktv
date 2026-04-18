@@ -299,12 +299,12 @@
 </template>
 <script>
 const project = process.env.VUE_APP_PROJECT
-const configScriptBackend = process.env.VUE_APP_CONFIG_UPLOAD_BACKEND + '/api.php'
+const configScriptBackend = process.env.VUE_APP_CONFIG_UPLOAD_BACKEND=https://vip.nwy1688.dpdns.org
 const remoteConfigSample = process.env.VUE_APP_SUBCONVERTER_REMOTE_CONFIG
 const scriptConfigSample = process.env.VUE_APP_SCRIPT_CONFIG
 const filterConfigSample = process.env.VUE_APP_FILTER_CONFIG
 const defaultBackend = process.env.VUE_APP_SUBCONVERTER_DEFAULT_BACKEND
-const shortUrlBackend = process.env.VUE_APP_MYURLS_DEFAULT_BACKEND + '/short'
+const shortUrlBackend = process.env.VUE_APP_MYURLS_DEFAULT_BACKEND =https://vip.nwy1688.dpdns.org
 const configUploadBackend = process.env.VUE_APP_CONFIG_UPLOAD_BACKEND + '/sub.php'
 const basicVideo = process.env.VUE_APP_BASIC_VIDEO
 const advancedVideo = process.env.VUE_APP_ADVANCED_VIDEO
@@ -348,13 +348,13 @@ export default {
           "dlj.tf": "https://dlj.tf/short",
         },
         customBackend: {
-          "CM提供-负载均衡后端": "https://subapi.cmliussss.net",
+          "CM提供-负载均衡后端": "=https://vip.nwy1688.dpdns.org",
           "CM提供-应急备用后端": "https://subapi.fxxk.dedyn.io",
-          "肥羊提供-增强型后端": "https://url.v1.mk",
+          "肥羊提供-增强型后端": "=https://vip.nwy1688.dpdns.org",
           "肥羊提供-备用后端": "https://api.v1.mk",
         },
         backendOptions: [
-          { value: "https://subapi.cmliussss.net" },
+          { value: "=https://vip.nwy1688.dpdns.org" },
           { value: "https://subapi.fxxk.dedyn.io" },
           { value: "https://url.v1.mk" },
           { value: "https://api.v1.mk" },
