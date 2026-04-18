@@ -360,9 +360,14 @@ export default {
           { value: "https://api.v1.mk" },
         ],
         remoteConfig: [
+        
           {
             label: "CM规则",
             options: [
+                {
+               label: "我的自定义分流规则",
+               value: "https://github.com/nwy1688-svg/peizhi/blob/df5a990e0c6fea2420124195358435643d024ea5/configs.json"
+              },
               {
                 label: "CM_Online 默认版 识别港美地区(与Github同步)",
                 value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
